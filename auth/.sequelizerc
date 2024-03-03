@@ -1,0 +1,7 @@
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve(__dirname, './src/shared/database/config/config.ts'),
+  'models-path': path.resolve(__dirname, './src/shared/database/index.ts'),
+  'migrations-path': path.resolve(__dirname, './src/shared/database/migration')
+};
